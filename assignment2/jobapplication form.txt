@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>
+            html forms
+            </title>
+            <center>
+            <h1>JOB APPLICATION</h1>
+            <hr>
+            <br>
+            </center>
+            </head>
+            <body>
+                <form>
+                    <center>
+                    <input type="checkbox" checked>
+                    <label for="vehicle1">Allowed</label><br><br>
+                    </center>
+                </form>
+
+                <label for="fname"><b>FIRST NAME:<b></label>
+                <input type="text" id="fname" name="fname" value="">
+                 <br>                                 
+                 <br>
+                <label for="lname">LAST NAME:</label>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <br>
+                <br>
+                GENDER:
+
+                <input type="radio" id="male"  value="male">
+                <label for="male">male</label>
+                <input type="radio" id="female"  value="female">
+                <label for="female">female</label><br>
+                <br>
+                <br>
+                <input type="checkbox" checked>
+
+                <label for="lname">EMAIL:</label>
+                <input type="text" id="lname" name="lname" value="">
+                <br>
+                <br>
+                <label for="address">Address:</label>
+                 <input type="" id="adress" name="fname" value="">
+
+                 <label for="street">STREET:</label>
+                 <input type="" id="street" name="fname" value="">
+                 <br>
+                 <br>
+                 <label for=   "city">CITY:</label>
+                 <input type="" id="city" name="fname" value="">
+
+                 <label for="zip code">ZIP CODE:</label>
+                 <input type="" id="zip code" name="fname" value="">
+                 <br>
+                 <br>
+                 <br>
+                 ENTER CONTACT DETAILS:
+                 <form>
+                    <label for="contact">Choose country detials:</label>
+                    <select>
+                      <option value="volvo">+91</option>
+                      <option value="saab">+92</option>
+                      <option value="opel">+93</option>
+                      <option value="audi">+94</option>
+
+                      <label for=   "city"></label>&nbsp;
+                      <input type="" id="city" name="fname" value="">
+
+
+
+              
+                    </select>
+                  </form>
+                  <br>
+                  <br>
+                  <h4>SELECT SKILLS<h4>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">c++</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">javascript</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3">python</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">c programming</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">fee</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3">dbms</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1">dsa</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2">java</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3">sql</label><br>
+ 
+</form>
+<h4>UPLOAD COVER LETTER:</h4>
+<form >
+  <label for="myfile">SELECT FILES:</label>
+  <input type="file" id="myfile" name="myfile" multiple><br><br>
+</form>
+<form >
+     SUBMIT
+    <input type="submit" value="Submit">
+  </form> 
+
+</body>
+</html>
+
+
+    
