@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .portfolio-item {
+            margin: 15px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #343a40;
+            color: white;
+        }
+        .btn-custom {
+            background-color: #28a745; /* Change to your preferred color */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Sneha Kaushal</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate Front-end web developer with experience in building responsive websites.</p>
+    </section>
+
+    <section id="projects" class="portfolio-item">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\Rajiv\Desktop\fee\portfolio (classwork)\Screenshot 2024-09-25 151816.png" class="card-img-top" alt="Zerodha">
+                    <div class="card-body">
+                        <h5 class="card-title">Zerodha</h5>
+                        <p class="card-text">A comprehensive platform for trading stocks, offering a user-friendly interface and a variety of tools for investors.</p>
+                        <a href="#" class="btn btn-custom">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\Rajiv\Desktop\fee\portfolio (classwork)\Screenshot 2024-09-25 151909.png" class="card-img-top" alt="Dribble Gaming Website">
+                    <div class="card-body">
+                        <h5 class="card-title">Dribble Gaming Website</h5>
+                        <p class="card-text">An interactive gaming website that offers various games with vibrant graphics and engaging user experiences.</p>
+                        <a href="#" class="btn btn-custom">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="C:\Users\Rajiv\Desktop\fee\portfolio (classwork)\Screenshot 2024-09-25 151927.png" class="card-img-top" alt="Kalki Wikipedia">
+                    <div class="card-body">
+                        <h5 class="card-title">Kalki Wikipedia</h5>
+                        <p class="card-text">A detailed informational website dedicated to the topic of Kalki, providing extensive resources and references.</p>
+                        <a href="#" class="btn btn-custom">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom">Send</button>
+        </form>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 My Portfolio</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
