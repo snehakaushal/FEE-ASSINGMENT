@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>
+kalki semantic tags
+</title>
+</head>
+<body>
+<!---------------------------nav-----------------------------------------------------------------------!>
+<section>
+<nav>
+  <a href="/html/">HOME</a> |
+  <a href="/css/">HELP</a> |
+  <a href="/js/">CONTACT US</a> |
+  <a href="/python/">SERVICES</a>
+<hr>
+</nav>
+
+</section>
+<!------------------------------------------logo+search bar------------------------------------------------>
+<section>
+
+  <header>
+        <img src="C:\Users\Rajiv\Desktop\fee\kalki semantic tag\Screenshot 2024-07-06 163330.png" alt="Company Logo"><input type="text" placeholder="Search..." style="width: 300px; padding: 8px; border: 1px solid #ccc; border-radius: 4px;">
+    </header>
+<br>
+<br>
+</section>
+
+<!-----------------------------------------topic+lang drop downlist----------------------------------------->
+<section>
+<center>
+<h1 style="display: inline;">Kalki</h1>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <label for="browser-choice">Choose your language:</label>
+    <input list="browsers" id="browser-choice" name="browser-choice" placeholder="Select a language">
+    <datalist id="browsers">
+        <option value="hindi">
+        <option value="english">
+        <option value="spanish">
+        <option value="france">
+        <option value="japanes">
+        <option value="marathi">
+        <option value="urdu">
+        <option value="chinese">
+    </datalist>
+ 
+</center>
+</section>
+<hr>
+<!------------------------------------------------------------------------------------------>
+<section>
+<center>&nbsp; 
+<h4>Article talk&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Read&nbsp; &nbsp; &nbsp;&nbsp; view resources&nbsp; &nbsp; &nbsp; &nbsp; view history</h4>
+</center>
+<hr>
+</section>
+
+<!---------------------------------table for content--------------------------------------------------------->
+<main>
+<section>
+<aside>
+<table width="100%">
+    <tr>
+        <!-- Left Section -->
+        <td width="30%" valign="top">
+            <h3><details>
+  <summary>Content</summary>
+  <p>content about kalki</p>
+</details>
+</h3>
+            <table>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#Top">(Top)</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#Etymology">Etymology</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#Hindu_texts">Hindu texts</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#Buddhist_texts">Buddhist texts</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#Sikh_texts">Sikh texts</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#Development">Development</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#Predictions_about_birth_and_arrival">Predictions about birth & arrival</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#People_who_claimed_to_be_Kalki">People who claimed to be Kalki</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#See_also">See also</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#References">References</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#Works_cited">Works cited</a></td></tr>
+                <tr><td><a href="https://en.wikipedia.org/wiki/Kalki#External_links">External links</a></td></tr>
+            </table>
+        </td>
+        </aside>
+<!---------------------------------- Center Section --------------------------------------------------------->
+        <td width="40%" valign="top">
+            <h3>From Wikipedia, the free encyclopedia</h3>
+            <article>For other uses, see<mark> Kalki</mark> (disambiguation).<br>Kalki (Sanskrit: कल्कि), also called Kalkin,[1] is the prophesied tenth and final incarnation of the god Vishnu. He is described to appear in order to<br> end the Kali Yuga, one of the four periods in the endless cycle of existence (Krita) in Vaishnava cosmology. The end of the Kali Yuga states this will usher in the new epoch of Satya Yuga in the cycle of existence, until the Mahapralaya (dissolution of the universe).</article>
+
+<article>Kalki is described in the Puranas as the avatar who rejuvenates existence<br> by ending the darkest and destructive period to <mark>remove adharma</mark> (unrighteousness) and ushering in the Satya Yuga, while riding a <br>white horse with a fiery sword.[2] The description and details of Kalki are different among various Puranas. Kalki is also found in Buddhist texts, for example the Kalachakra-Tantra of Tibetan Buddhism.</article>
+
+<h1>Etymology</h1>
+<hr><article>
+The name Kalki is derived from <mark>Kal</mark>, which means "time" (Kali Yuga).[15] The original term may have been Karki (white, from the horse) which morphed into Kalki. This proposal is supported by two versions of<mark> Mahabharata manuscripts </mark>(e.g. the G3.6 manuscript) that have been found, where the Sanskrit verses name the incarnation to be karki</article>
+<h1>Description</h1>
+<hr>
+<article><h3>Hindu texts</h3>
+Kalki is an avatara of Vishnu. Avatar means "descent", and refers to a descent of the divine into the material realm of human existence. The Garuda Purana lists ten incarnations, with Kalki being the final one.[16] He is described as the incarnation who appears at the end of the Kali Yuga. He ends the darkest, degenerating, and chaotic stage of the Kali Yuga to remove adharma and ushers in the Satya Yuga, while riding a white horse with a fiery sword.[2][17] He restarts a new cycle of time.[18] He is described as a Brahmin warrior in the Puranas.[2][17] It is mentioned in the Puranas that the immortal<mark> Chiranjivis</mark> will assist him in various stages of his life.[19]<br>
+<br>
+
+
+Statue of Kalki's incarnation on a wall of Rani Ki Vav (The Queen's Stepwell) at Patan, Gujarat, India
+Kalki appears for the first time in the Mahabharata.[20] A minor text named Kalki Purana is a relatively recent text, likely composed in Bengal. Its dating floruit is the 18th-century.[21] Wendy Doniger dates the Kalki Mythology containing Kalki Purana to between 1500 and 1700 CE.[22]<br><br>
+
+In the Kalki Purana, Kalki is born into the family of <mark>Vishnuyashas and Sumati</mark>, in a village called Shambala,[23] on the thirteenth day during the fortnight of the waxing moon. At a young age, he is taught the holy scriptures on topics such as dharma, karma, artha, jñāna, and undertakes military training under the care of the Parashurama (the sixth incarnation of Vishnu).[24] Soon, Kalki worships Shiva, who gets pleased by the devotion and provides him in return a divine white horse named <mark>Devadatta</mark> (a manifestation of Garuda), a powerful sword, whereby its handle is bedecked with jewels, and a parrot named Shuka, who is an all-knower; the past, the present and the future.[25] Other accessories are also given by other devas, devis, saints, and righteous kings.<mark> He fights an evil army and in many wars,</mark> ending evil, but does not end existence. Kalki returns to Shambala, inaugurates a new Yuga for the good, and then goes to Vaikuntha.[21] In the Kalki Purana, there is a mention of a Buddhist city whose residents don't adhere to dharma (not worshipping the devas, ancestors, and not upholding the varna system), which Kalki fights and conquers.[26]</article>
+        </td>
+        
+<!------------------------------------ Right Section ------------------------------------------------------>
+<aside>
+<figure>
+
+        <td width="30%" valign="top">
+           <img src="C:\Users\Rajiv\Desktop\fee\kalki semantic tag\Screenshot 2024-07-06 235530.png" alt="Girl in a jacket" width="350" height="575"><center><figcaption>KALKI</figcaption></center><br><br><br><br><img src="C:\Users\Rajiv\Desktop\fee\kalki semantic tag\Screenshot 2024-07-07 000205.png"alt="Girl in a jacket" width="350" height="575"></td>
+    </tr>
+</table>
+</figure>
+</aside>
+</section>
+</main>
+<!--------------------------------footer---------------------------------------------------------->
+<section>
+<footer><hr>This page was last edited on 1 July 2024, at 23:07 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 4.0; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaCode of ConductDevelopersStatisticsCookie statementMobile view <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p></footer>
+</section>
+<!------------------------------------------------------------------------------------------>
+
+
+</body>
+</html>
