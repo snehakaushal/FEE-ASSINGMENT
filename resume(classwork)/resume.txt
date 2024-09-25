@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sneha Kaushal</title>
+</head>
+
+<body>
+    <h1><u>Sneha Kaushal</u></h1>
+<br> <img src="C:\Users\Rajiv\Desktop\fee\resume(classwork)\Screenshot 2024-07-01 121601.png"></br>
+
+   Hello! I am sneha kaushal, currently a second-year B.Tech student specializing in Computer Science Engineering at Chitkara university. With a strong foundation in programming and problem-solving, I am passionate about exploring new technologies and applying my knowledge to real-world projects. My interests lie in areas such as software development, data science, and artificial intelligence. I am eager to leverage my skills and enthusiasm to contribute to innovative projects and gain practical experience in the tech industry.
+    
+     <h2>Personal information</h2>
+    <ul>
+  <li>phone:7717623925</li>
+  <li>email:sneha1296.be23@chitkara.edu.in</li>
+  <li>address:124,sunny enclave</li>
+  <li>Linkedin:linkdein.com/sneha
+</ul>  
+
+    
+    <h2>education</h2>
+    <ul>
+  <li>classX(cbse):9 CGPA</li>
+  <li>classXII(cbse):8 CGPA</li>
+  <li>Btech(Chitkara university)</li>
+</ul>  
+
+ <h2>skills</h2>
+    <ul>
+  <li>Backend:python,c language</li>
+  <li>Front-end:html,c programming</li>
+  <li>other:git,source code management</li>
+</ul>  
+
+ <h2>Hobbies</h2>
+    <ul>
+  <li>sports</li>
+  <li>drawing</li>
+</ul>  
+
+ <h2>education</h2>
+    <ul>
+  <li>Contact</li>
+  <li>Email:sneha1296.be23@chitkara.eud.in</li>
+  <li>contact:7717623925</li>
+</ul>  
+
+ <h2>Achivements</h2>
+    <ul>
+  <li>hackethon 2024|3 prize</li>
+  
+ 
+</ul>  
+
+
+</body>
+
+</html>
