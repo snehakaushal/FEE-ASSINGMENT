@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators and Pseudo-Class Selectors</title>
+    <style>
+        h1 + p {
+            color: red;
+        }
+        div > p {
+            color: green;
+        }
+        p ~ ul {
+            color: blue;
+        }
+        a:hover {
+            color: orange;
+        }
+        input:focus {
+            border: 2px solid purple;
+        }
+        li:first-child {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>Paragraph next to heading.</p>
+    <div>
+        <p>Direct child paragraph.</p>
+        <span>Not affected</span>
+    </div>
+    <p>Sibling paragraph before list.</p>
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+    </ul>
+    <a href="#">Hover over this link</a>
+    <input type="text" placeholder="Focus on me">
+</body>
+</html>
