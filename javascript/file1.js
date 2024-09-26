@@ -1,3 +1,5 @@
-for (let i = 0; i < 5; i++) {
-    console.log("Hello, Sneha!");
+let count = 0;
+while (count < 5) {
+    console.log("Hello, Lovisha!");
+    count++;
 }
