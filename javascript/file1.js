@@ -1,12 +1,3 @@
-let person = "Sneha";
-
-switch (person) {
-    case "Sneha":
-        console.log("Sneha");
-        break;
-    case "Lovisha":
-        console.log("lovisha");
-        break;
-    default:
-        console.log("noone");
+for (let i = 0; i < 5; i++) {
+    console.log("Hello, Sneha!");
 }
