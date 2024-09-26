@@ -1,9 +1,12 @@
-let number = 10;
+let person = "Sneha";
 
-if (number > 0) {
-    console.log("positive");
-} else if (number < 0) {
-    console.log("negative");
-} else {
-    console.log("zero");
+switch (person) {
+    case "Sneha":
+        console.log("Sneha");
+        break;
+    case "Lovisha":
+        console.log("lovisha");
+        break;
+    default:
+        console.log("noone");
 }
