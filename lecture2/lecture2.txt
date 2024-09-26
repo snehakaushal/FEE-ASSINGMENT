@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline vs Block Elements</title>
+  <style>
+    .block {
+      background-color: lightblue;
+      margin: 10px 0;
+      padding: 10px;
+    }
+
+    .inline {
+      background-color: lightgreen;
+      margin: 10px;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!--block -->
+  <h1 class="block">Block-level Element - Heading 1</h1>
+  <p class="block">Block-level Element - This is a paragraph. Block elements take up the full width and start on a new line.</p>
+  <div class="block">Block-level Element - Divs also act as block elements.</div>
+
+  <!--inline -->
+  <span class="inline">Inline Element - Span 1</span>
+  <span class="inline">Inline Element - Span 2</span>
+  <a href="#" class="inline">Inline Element - Link</a>
+  <strong class="inline">Inline Element - Bold Text</strong>
+
+  <!-- both mix -->
+  <p class="block">This paragraph contains <span class="inline">inline elements</span> like <a href="#" class="inline">links</a> and <strong class="inline">bold text</strong> inside a block element.</p>
+
+</body>
+</html>
