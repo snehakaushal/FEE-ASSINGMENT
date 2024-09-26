@@ -1,5 +1,23 @@
-let num = 0;
-do {
-    console.log("Hello again, Sneha!");
-    num++;
-} while (num < 3);
+let name1 = "   sneha   ";
+let name2 = "lovisha";
+
+console.log("name1 length:", name1.length);
+console.log("name1 char at index 2:", name1.at(2));
+console.log("name2 char at index 1:", name2[1]);
+console.log("name1 slice(1, 5):", name1.slice(1, 5));
+console.log("name2 substring(0, 3):", name2.substring(0, 3));
+console.log("name1 substr(3, 4):", name1.substr(3, 4));
+console.log("name1 toUpperCase:", name1.toUpperCase());
+console.log("name2 toLowerCase:", name2.toLowerCase());
+let combined = name1.concat(" ", name2);
+console.log("combined names:", combined);
+console.log("name1 trim:", name1.trim());
+console.log("name1 trimStart:", name1.trimStart());
+console.log("name1 trimEnd:", name1.trimEnd());
+console.log("name2 repeat(3):", name2.repeat(3));
+let replacedName1 = name1.replace("sneha", "sneha sharma");
+console.log("name1 replace:", replacedName1);
+let replacedAllName1 = name1.replaceAll("a", "o");
+console.log("name1 replaceAll 'a' with 'o':", replacedAllName1);
+let splitName2 = name2.split("");
+console.log("name2 split:", splitName2);
