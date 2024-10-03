@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        /* Add some basic styles for print layout */
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+                width: 210mm; /* A4 width */
+                height: 297mm; /* A4 height */
+                overflow: hidden;
+            }
+            #resumeContainer {
+                width: 100%;
+                height: 100%;
+                border: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Create a container for the resume
+        const resumeContainer = document.createElement('div');
+        resumeContainer.id = 'resumeContainer'; // Add an ID for print styles
+        resumeContainer.style.display = 'flex';
+        resumeContainer.style.flexDirection = 'column'; // Change to column direction
+        resumeContainer.style.maxWidth = '800px'; // Adjust width for A4
+        resumeContainer.style.margin = '20px auto'; // Center the container with margin
+        resumeContainer.style.border = '1px solid #ccc';
+        resumeContainer.style.borderRadius = '8px';
+        resumeContainer.style.overflow = 'hidden';
+        resumeContainer.style.fontFamily = 'Arial, sans-serif';
+
+        // Top container for image and name
+        const topContainer = document.createElement('div');
+        topContainer.style.display = 'flex';
+        topContainer.style.alignItems = 'center'; // Center items vertically
+        topContainer.style.backgroundColor = '#003366';
+        topContainer.style.padding = '30px'; // Increased padding
+
+        // Create and style the image
+        const image = document.createElement('img');
+        image.src = 'C:\\Users\\Rajiv\\Desktop\\fee\\resume using css dom\\download (6).jpeg'; // Update path accordingly
+        image.alt = 'Profile Picture';
+        image.style.width = '150px';
+        image.style.height = '150px';
+        image.style.borderRadius = '50%';
+        image.style.marginRight = '30px'; // Space between image and text
+        image.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.2)'; // Optional shadow for depth
+
+        topContainer.appendChild(image);
+
+        // Left side content with name and contact information
+        const leftContent = document.createElement('div');
+        leftContent.style.color = 'white';
+        leftContent.innerHTML = `
+            <h2 style="margin: 0;">SNEHA KAUSHAL</h2>
+            <p style="margin: 10px 0;"><strong>Address:</strong><br>Punjab, Chandigarh</p>
+            <p style="margin: 10px 0;"><strong>E-mail:</strong><br>sneha1296.be23@chitkara.edu.in</p>
+            <p style="margin: 10px 0;"><strong>Phone No:</strong><br>7717623925</p>
+            <hr style="border: 1px solid white; margin: 10px 0;">
+        `;
+        topContainer.appendChild(leftContent);
+
+        // Append top container to the resume container
+        resumeContainer.appendChild(topContainer);
+
+        // Main content container for sections
+        const contentContainer = document.createElement('div');
+        contentContainer.style.display = 'flex'; // Use flexbox for two columns
+        contentContainer.style.padding = '20px';
+
+        // Left column container
+        const leftColumn = document.createElement('div');
+        leftColumn.style.flex = '1';
+        leftColumn.style.marginRight = '60px'; // Increased space between columns
+
+        // Right column container
+        const rightColumn = document.createElement('div');
+        rightColumn.style.flex = '1';
+
+        const sections = [
+            { title: 'Education', content: `
+                <ul style="padding-left: 20px;"> <!-- Indent for bullets -->
+                    <li style="margin-bottom: 20px;">BTECH in Computer Science</li>
+                    <li style="margin-bottom: 20px;">Chitkara University, Rajpura</li>
+                    <li style="margin-bottom: 20px;">Year: 2023-2027. Gained a solid foundation in programming and software development.</li>
+                </ul>
+            ` },
+            { title: 'Experience', content: `
+                <ul style="padding-left: 20px;"> <!-- Indent for bullets -->
+                    <li style="margin-bottom: 20px;">Interned as a Software Developer at XYZ Company from June 2023 to August 2023</li>
+                    <li style="margin-bottom: 20px;">Worked on web development projects.</li>
+                </ul>
+            ` },
+            { title: 'Skills', content: `
+                <ul style="padding-left: 20px;"> <!-- Indent for bullets -->
+                    <li style="margin-bottom: 20px;">Proficient in Python, HTML, CSS, JavaScript</li>
+                    <li style="margin-bottom: 20px;">Experience in web development and data analysis.</li>
+                </ul>
+            ` },
+            { title: 'Projects', content: `
+                <ul style="padding-left: 20px;"> <!-- Indent for bullets -->
+                    <li style="margin-bottom: 20px;">GameXpro Gaming website</li>
+                    <li style="margin-bottom: 20px;">Developed a gaming website that integrates various games into one platform for easy access, enhancing user engagement.</li>
+                </ul>
+            ` },
+            { title: 'Certifications', content: `
+                <ul style="padding-left: 20px;"> <!-- Indent for bullets -->
+                    <li style="margin-bottom: 20px;">Completed courses in Full Stack Development and Data Science, enhancing my technical skill set.</li>
+                </ul>
+            ` },
+            { title: 'Hobbies', content: `
+                <ul style="padding-left: 20px;"> <!-- Indent for bullets -->
+                    <li style="margin-bottom: 20px;">Passionate about gaming, coding, drawing, and contributing to open-source projects in my free time.</li>
+                </ul>
+            ` },
+        ];
+
+        // Populate left column with the first three sections
+        for (let i = 0; i < 3; i++) {
+            const sectionDiv = document.createElement('div');
+            sectionDiv.style.marginBottom = '20px';
+
+            const sectionTitle = document.createElement('h3');
+            sectionTitle.innerText = sections[i].title;
+            sectionTitle.style.marginBottom = '10px';
+            sectionTitle.style.color = '#333';
+
+            const sectionContent = document.createElement('div'); // Changed to div for HTML content
+            sectionContent.innerHTML = sections[i].content; // Use innerHTML to render list items
+            sectionContent.style.color = '#666';
+
+            sectionDiv.appendChild(sectionTitle);
+            sectionDiv.appendChild(sectionContent);
+            sectionDiv.appendChild(document.createElement('hr')); // Add line after each section
+            leftColumn.appendChild(sectionDiv);
+        }
+
+        // Populate right column with the last three sections
+        for (let i = 3; i < sections.length; i++) {
+            const sectionDiv = document.createElement('div');
+            sectionDiv.style.marginBottom = '20px';
+
+            const sectionTitle = document.createElement('h3');
+            sectionTitle.innerText = sections[i].title;
+            sectionTitle.style.marginBottom = '10px';
+            sectionTitle.style.color = '#333';
+
+            const sectionContent = document.createElement('div'); // Changed to div for HTML content
+            sectionContent.innerHTML = sections[i].content; // Use innerHTML to render list items
+            sectionContent.style.color = '#666';
+
+            sectionDiv.appendChild(sectionTitle);
+            sectionDiv.appendChild(sectionContent);
+            sectionDiv.appendChild(document.createElement('hr')); // Add line after each section
+            rightColumn.appendChild(sectionDiv);
+        }
+
+        // Append left and right columns to the content container
+        contentContainer.appendChild(leftColumn);
+        contentContainer.appendChild(rightColumn);
+
+        // Append content container to the resume container
+        resumeContainer.appendChild(contentContainer);
+
+        // Append the resume container to the body
+        document.body.appendChild(resumeContainer);
+    </script>
+</body>
+</html>
