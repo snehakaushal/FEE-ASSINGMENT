@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Toggle</title>
+    <style>
+        img {
+            width: 300px;
+            height: auto;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <img id="toggleImage" src="C:/Users/Rajiv/Desktop/javascript/lecture28/cute-zodiac-cakes-y2k-style-600nw-2456538021.webp" alt="First Image">
+
+    <script>
+        const image = document.getElementById("toggleImage");
+        const img1 = "C:/Users/Rajiv/Desktop/javascript/lecture28/cute-zodiac-cakes-y2k-style-600nw-2456538021.webp";
+        const img2 = "C:/Users/Rajiv/Desktop/javascript/lecture28/ok.jpeg";
+
+        image.addEventListener("click", () => {
+            image.src = image.src.includes(img1) ? img2 : img1;
+        });
+    </script>
+
+</body>
+</html>
