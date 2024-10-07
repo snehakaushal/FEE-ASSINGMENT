@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Update</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .profile {
+            background-color: #f0f0f0;
+            padding: 50px;
+            border-radius: 50px;
+            display: inline-block;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+        }
+        .profile h2 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .profile p {
+            font-size: 18px;
+            color: #555;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input {
+            display: block;
+            width: 30%;
+            margin: 10px auto;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img id="profile-pic" src="https://via.placeholder.com/100" alt="Profile Picture">
+        <h2 id="profile-name">Monk's 😁</h2>
+        <p id="profile-bio">Bio Still 😑</p>
+    </div>
+
+    <form id="profile-form">
+        <label for="name">Update Name:</label>
+        <input type="text" id="name" placeholder="Enter New Name">
+
+        <label for="bio">Update Bio:</label>
+        <input type="text" id="bio" placeholder="Enter New Bio">
+
+        <label for="image">Update Profile Picture URL:</label>
+        <input type="text" id="image" placeholder="Enter Image URL">
+
+        <button type="button" id="update-profile">Update Profile</button>
+    </form>
+
+    <script>
+        document.getElementById('update-profile').addEventListener('click', function() {
+            const newName = document.getElementById('name').value;
+            const newBio = document.getElementById('bio').value;
+            const newImage = document.getElementById('image').value;
+
+            if (newName) {
+                document.getElementById('profile-name').textContent = newName;
+            }
+
+            if (newBio) {
+                document.getElementById('profile-bio').textContent = newBio;
+            }
+
+            if (newImage) {
+                document.getElementById('profile-pic').src = newImage;
+            }
+
+            document.getElementById('name').value = '';
+            document.getElementById('bio').value = '';
+            document.getElementById('image').value = '';
+        });
+    </script>
+</body>
+</html>
