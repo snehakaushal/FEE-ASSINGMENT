@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Event Examples</title>
+</head>
+<body>
+
+    <button id="click-btn">Click Me</button>
+    <p id="hover-text">Hover over me!</p>
+    <input type="text" id="input-field" placeholder="Press a key">
+    <form id="submit-form">
+        <input type="text" placeholder="Submit this form">
+        <button type="submit">Submit</button>
+    </form>
+    <img id="image" src="https://via.placeholder.com/150" alt="Placeholder Image">
+
+    <script>
+        document.getElementById('click-btn').addEventListener('click', function() {
+            alert('Button clicked!');
+        });
+
+        document.getElementById('hover-text').addEventListener('mouseover', function() {
+            this.textContent = 'You hovered over me!';
+        });
+
+        document.getElementById('input-field').addEventListener('keydown', function(event) {
+            console.log('Key pressed: ' + event.key);
+        });
+
+        document.getElementById('submit-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Form submitted!');
+        });
+
+        window.addEventListener('load', function() {
+            document.getElementById('image').src = 'https://via.placeholder.com/200';
+            console.log('Page fully loaded, image updated.');
+        });
+    </script>
+    
+</body>
+</html>
